@@ -48,6 +48,6 @@ func main() {
 
 	//Start web server set the port with no path as it will just be testing on localhost
 	//Print any errors from starting the web server
-	fmt.Println("Listening");
-	fmt.Println(http.ListenAndServe(":8080", nil));
+	fmt.Println("Listening on port 31116");
+	fmt.Println(http.ListenAndServe(":31116", nil));
 }

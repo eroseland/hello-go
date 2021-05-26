@@ -13,6 +13,6 @@ RUN go build ./hello.go
 
 # WORKDIR /opt/hello-go/
 
-EXPOSE 8080
+EXPOSE 31116
 # ENTRYPOINT ["./hello"]\
 CMD ./hello
